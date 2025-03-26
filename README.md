@@ -12,3 +12,13 @@ python -m pip install requests
 Once Python is set up, simply change the Twitch username (or Youtube channel ID) in TwitchPlays_TEMPLATE.py, and you'll be ready to go.
 
 This code is originally based off Wituz's Twitch Plays template, then expanded by DougDoug and DDarknut with help from Ottomated for the Youtube side. For now I am not reviewing any pull requests or code changes, this code is meant to be a simple prototype that is uploaded for educational purposes. But feel free to fork the project and create your own version!
+
+# Discord Addition
+Additional module required:
+python -m pip install discord
+
+chaos_bot.py is a working and tested addition using the Discord API to read chats, and implemented to play Undertale Chaos with friends in Discord. 
+
+TODO: @christopher-d-carter: 
+- Integrate Discord with TwitchPlays_Connection and some refactoring. 
+- Add CLI arguments so users can provide required credentials
